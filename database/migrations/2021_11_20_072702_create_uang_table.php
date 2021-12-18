@@ -17,7 +17,7 @@ class CreateUangTable extends Migration
             $table->id();
             $table->integer('id_kategori')->index();
             $table->string('nama_kategori');
-            $table->float('total');
+            $table->bigInteger('total');
             $table->timestamps();
         });
     }

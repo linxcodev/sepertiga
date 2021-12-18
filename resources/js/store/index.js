@@ -3,11 +3,11 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-// import sample
+import uang from './uang'
 
 export default new Vuex.Store({
   modules: {
-    // module
+    uang
   },
   state: {
     errors: [],

@@ -17,7 +17,7 @@ class CreatePengeluaranTable extends Migration
             $table->id();
             $table->integer('id_kategori')->index();
             $table->string('nama_kategori');
-            $table->float('nominal');
+            $table->bigInteger('nominal');
             $table->text('keterangan')->nullable();
             $table->timestamps();
         });

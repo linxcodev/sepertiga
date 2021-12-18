@@ -15,7 +15,7 @@ class CreatePemasukanTable extends Migration
     {
         Schema::create('pemasukan', function (Blueprint $table) {
             $table->id();
-            $table->float('nominal');
+            $table->bigInteger('nominal');
             $table->text('keterangan')->nullable();
             $table->timestamps();
         });

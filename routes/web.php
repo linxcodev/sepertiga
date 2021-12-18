@@ -12,7 +12,6 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
-$router->get('sampel', 'ExampleController@sampel');
 
 $router->get('/{route:.*}/', function () use ($router) {
     return view('app');
